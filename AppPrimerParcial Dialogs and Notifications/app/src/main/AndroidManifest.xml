@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.appprimerparcial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppPrimerParcial">
+        <activity
+            android:name=".ChildActivity"
+            android:label="INFORMACION CURSO"
+            android:exported="false" />
+        <activity
+            android:name=".DialogNitificationActivity"
+            android:label="SUSCRIPCIÓN AL CURSO"
+            android:exported="false" />
+        <activity
+            android:name=".RateStarsActivity"
+            android:label="CALIFICAR"
+            android:exported="false" />
+        <activity
+            android:name=".FrmUsuarioActivity"
+            android:exported="false"
+            android:label="REGISTRO" />
+        <activity
+            android:name=".InformationActivity"
+            android:exported="false"
+            android:label="INFORMACIÓN" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
